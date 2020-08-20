@@ -1,0 +1,27 @@
+{
+  "name": "crawler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "events": "^3.2.0",
+    "express": "^4.17.1",
+    "http-proxy": "^1.18.1",
+    "https-proxy-agent": "^5.0.0",
+    "mongoose": "^5.9.28",
+    "node-json-xlsx": "^0.2.2",
+    "nodemon": "^2.0.4",
+    "proxy": "^1.0.2",
+    "queue": "^6.0.1",
+    "queue-fifo": "^0.2.6",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  }
+}
